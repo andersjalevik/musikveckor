@@ -8,5 +8,8 @@
 # To do:
 
 - Error handling
-- Append new blogs instead of generating from scratch
-- Maybe som FE to sort, filter and get some statistics? Or maybe just use google sheets?
+- Handle multiple spotify playlists in blogpost
+- Handle non spotify playlists (if possible, currently skipped)
+- Fix proper auth rather then token in .env (expires pretty quickly)
+- Option to scrape only new blogs and append to songs.cvs instead of generating from scratch
+- Maybe som FE to sort, filter and get some statistics?
