@@ -141,15 +141,16 @@ const main = async () => {
         owner: { display_name: user, id: userId },
       } = data;
       const playlistSongs = items.map(({ track }) => {
-        const { name: song, id: songId } = track;
+        const { name: song, id: songId, release_date: releaseDate } = track;
         const artists = track.artists.map((artist) => artist.name).join(", ");
         return {
-          artists,
           song,
-          songId,
+          artists,
+          releaseDate,
+          user,
           pageHref,
           playlistId,
-          user,
+          songId,
           userId,
         };
       });
