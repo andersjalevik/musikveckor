@@ -13,10 +13,14 @@
 # To create MEGA playlist
 
 Run `node songs2playlists.js` (requires a songs.json file to be present)
-
+ 
 # To get even more info!
 
 Run `node extendedsongs.js` (requires a songs.json file to be present and will produce an extendedsongs.csv with same info as songs.csv plus additional info)
+
+# To get user statistics
+
+Run `node userstats.js` (requires a extendedsongs.json file to be present and will produce an userstats.csv)
 
 # To do:
 
